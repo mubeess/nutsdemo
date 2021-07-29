@@ -61,7 +61,7 @@ const theme = createMuiTheme({
         }}>
         <Typography style={{
                color:'black'
-             }} variant="button" align='center' gutterBottom>NOBLE INTELLECT</Typography>
+             }} variant="button" align='center' gutterBottom>NUTSCODERS SMS DEMO</Typography>
                <Typography style={{
                color:'black'
              }} variant="button" align='center' gutterBottom>ACADEMY</Typography>
