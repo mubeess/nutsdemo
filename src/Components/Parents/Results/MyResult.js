@@ -255,105 +255,7 @@ export default function MyResult() {
       </div>
       <Divider style={{marginTop:'10px'}}></Divider>
 
-      {/* <div ref={componentRef} className='mainResult'>
-      <TableContainer  style={{marginTop:'20px',width:800}} component={Paper}>
-      <Table className={classes.table} aria-label="customized table">
-        <TableHead>
-          <TableRow style={{backgroundColor:gray[500]}} >
-            <StyledTableCell>Subjects</StyledTableCell>
-            <StyledTableCell>1st CA</StyledTableCell>
-            <StyledTableCell>2nd CA</StyledTableCell>
-            <StyledTableCell>3rd CA</StyledTableCell>
-            <StyledTableCell>4th CA</StyledTableCell>
-            <StyledTableCell>Exam</StyledTableCell>
-            <StyledTableCell>Total</StyledTableCell>
-            <StyledTableCell>Grade</StyledTableCell>
-            <StyledTableCell>Remark</StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {
-            myResult.length>0&&(
-              myResult[1].map((res,ind)=>(
-                <StyledTableRow>
-                <StyledTableCell component="th" scope="row">
-                  {res.subject}
-                </StyledTableCell>
-                <StyledTableCell component="th" scope="row">
-                  {res.ca1||'0'}
-                </StyledTableCell>
-                <StyledTableCell component="th" scope="row">
-                {res.ca2||'0'}
-                </StyledTableCell>
-                <StyledTableCell component="th" scope="row">
-                {res.ca3||'0'}
-                </StyledTableCell>
-                <StyledTableCell component="th" scope="row">
-                {res.ca4||'0'}
-                </StyledTableCell>
-                <StyledTableCell component="th" scope="row">
-                {res.exam||'0'}
-                </StyledTableCell>
-                <StyledTableCell component="th" scope="row">
-                {res.total}
-                </StyledTableCell>
-                <StyledTableCell component="th" scope="row">
-                {res.grade||'F'}
-                </StyledTableCell>
-                <StyledTableCell component="th" scope="row">
-                {grader(res.grade)||'Fail'}
-                </StyledTableCell>
-            </StyledTableRow>
-
-              ))
-            )
-          }
-        {
-          myResult.length==0&&(
-            <Typography variant='button'>No Result Yet!!!</Typography>
-          )
-        }
-            
-        </TableBody>
-        </Table>
-        </TableContainer>
-        <div className='resultDetails'>
-            <div className='current'>
-            <Typography variant='button'>CURRENT</Typography>
-            <div className='subDetails'>
-       <Typography style={{marginLeft:'10px'}} variant='body1'>Total:</Typography>
-       <Typography variant='body1'>{myResult.length>0?myResult[0].total:'0'}</Typography>
-
-
-       <Typography style={{marginLeft:'10px'}} variant='body1'>Average:</Typography>
-       <Typography variant='body1'>{myResult.length>0?myResult[0].average.toPrecision(5):'0'}</Typography>
-
-
-       <Typography style={{marginLeft:'10px'}} variant='body1'>Session:</Typography>
-       <Typography variant='body1'>{myResult.length>0?myResult[0].session:'None'}</Typography>
-            </div>
-            </div>
-            <div className='classDesc'>
-            <Typography variant='button'>Class Description</Typography>
-            <div className='subDetails'>
-       <Typography style={{marginLeft:'10px'}} variant='body1'>TOTAL NO. OF STUDENTS:</Typography>
-       <Typography variant='body1'>{myResult.length>0?myResult[3]:'0'}</Typography>
-
-
-       <Typography onClick={()=>{
-         console.log(myResult)
-       }} style={{marginLeft:'10px'}} variant='body1'>TOTAL NO. OF SUBJECTS:</Typography>
-       <Typography variant='body1'>{myResult.length>0?myResult[0].noOfCourse:'0'}</Typography>
     
-
-    
-            </div>
-            </div>
-        </div>
-        <div className='principalRem'>
-        <Typography style={{marginTop:'20px'}} variant='button'>PRINCIPAL REMARK:{myResult.length>0?myResult[2].remarks:''}</Typography> 
-        </div>
-      </div> */}
       <StyledAttendance>
     <div ref={componentRef} className='printCont'>
    {
@@ -362,7 +264,7 @@ export default function MyResult() {
             <div id="container">
             <center> <div className="header">
                  <img src={Logo} style={{textAlign:'center'}}/><br></br>
-                 <span className="school-name">NOBLE INTELLECT ACADEMY</span><br></br>
+                 <span className="school-name">NUTS-SMS DEMO ACADEMY</span><br></br>
                 <span>No. 24 kofare zone 3,, Jimeta Yola North, Adamawa State</span><br></br>
                 <span>Motto: Learning For Better Future.</span>
                 <h4>STUDENT REPORT SHEET</h4>

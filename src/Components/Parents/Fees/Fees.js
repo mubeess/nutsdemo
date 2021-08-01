@@ -183,7 +183,7 @@ export default function Fees() {
         <div ref={componentRef} className="page-break"  id="container">
         <center> <div className="header">
              <img src={Logo} style={{textAlign:'center'}}/><br></br>
-             <span className="school-name">NOBLE INTELLECT ACADEMY</span><br></br>
+             <span className="school-name">NUTS-SMS DEMO ACADEMY</span><br></br>
             
            
             <span>No. 24 kofare zone 3,, Jimeta Yola North, Adamawa State</span><br></br>
